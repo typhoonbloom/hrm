@@ -1,1 +1,13 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HRM.Api/HRM.Api.csproj" Id="e91690df-e2d3-4a3d-aa7c-5ed2a371967b" />
+    <Project Path="src/HRM.Web/HRM.Web.csproj" Id="7db96cf9-8e30-4478-89d8-b4dbaeb65566" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/HRM.Identity.Api/HRM.Identity.Api.csproj" Id="1146d83b-d05f-41ad-bea8-31313c86b969" />
+    <Project Path="src/Modules/Identity/HRM.Identity.Application/HRM.Identity.Application.csproj" Id="2fc376d2-7f52-49e8-a33c-4a67ba590d8d" />
+    <Project Path="src/Modules/Identity/HRM.Identity.Domain/HRM.Identity.Domain.csproj" Id="8b8d4019-afbe-43e5-9acc-39e409fd6dcb" />
+    <Project Path="src/Modules/Identity/HRM.Identity.Infrastructure/HRM.Identity.Infrastructure.csproj" Id="f3a9397a-7fde-4dc3-8bc4-e388a8e70803" />
+  </Folder>
+</Solution>
